@@ -1,0 +1,181 @@
+#folder
+obj
+libs
+.vscode/
+
+#appcode filder or file
+.idea
+.gradle
+.vscode
+
+#mac
+.DS_Store
+
+# c/c++
+# Prerequisites
+*.d
+
+# Object files
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Xcode Project
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### android
+# Built application files
+*.apk
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+#other
+demo_Android/local.properties
+
+# Intellij
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+
+# Keystore files
+*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+#vc
+ECMedia/Ecmedia.aps
+demo_Win/.vs/
+demo_Win/MyWebRtc.VC.VC.opendb
+demo_Win/MyWebRtc.VC.db
+demo_Win/Win32/
+demo_Win/ipch/
+demo_Win/serphonetest/serphonetest.aps
+demo_Win/MyWebRtc.sln
+demo_Win/MyWebRtc.sln
+ECMedia/source/temp
+third_party/protobuf/python/
+third_party/protobuf_261/
+third_party/srtp/crypto/include/config.h
+demo_Win/Debug/
+demo_Win/Release/
+third_party/protobuf/cmake/solution/CMakeFiles/3.7.1/CompilerIdC/
+module/congestion_controller/congestion_controller/Debug/
+third_party/protobuf/cmake/solution/CMakeFiles/3.7.1/CompilerIdCXX/CompilerIdCXX.exe
+third_party/protobuf/cmake/solution/Release/
+third_party/protobuf/cmake/solution/libprotobuf-lite.dir/Release/
+*.lib
