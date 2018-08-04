@@ -51,11 +51,11 @@ public class PreviewActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         if (v == btnSwitch) {
             long curTime = System.currentTimeMillis();
-            if (curTime - lastTimeFlag > 5000) {
+            if (curTime - lastTimeFlag > 3000) {
                 lastTimeFlag = curTime;
                 engine.SwitchCamera();
             } else {
-                Toast.makeText(getApplicationContext(), "点的太欢了，歇会再切换吧", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "切换太快了，休息下", Toast.LENGTH_SHORT).show();
             }
 
         }

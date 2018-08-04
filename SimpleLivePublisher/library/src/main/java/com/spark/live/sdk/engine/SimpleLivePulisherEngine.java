@@ -75,9 +75,6 @@ public class SimpleLivePulisherEngine extends ISimpleLiveEngine.Stub {
 
     }
 
-
-
-
     private CodecManager videoCodec, audioCodec;
     private BuildCommander audioTagFactory, videoTagFactory;
 

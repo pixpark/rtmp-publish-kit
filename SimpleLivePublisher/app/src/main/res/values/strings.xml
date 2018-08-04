@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SparkVideo</string>
+    <string name="app_name">SimpleLive</string>
     <string name="action_settings">Settings</string>
     <string name="btn_capture">Publish</string>
     <string name="btn_stop">Stop</string>

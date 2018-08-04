@@ -32,14 +32,7 @@
         android:layout_toRightOf="@+id/stop"
         android:text="Switch"/>
 
-    <TextView
-        android:id="@+id/txt_version"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/btn_switch"
-        android:text="v0.0.1"
-        android:textAppearance = "?android:attr/textAppearanceSmall"/>
+
     <TextView
         android:id="@+id/status_indication"
         android:layout_width="wrap_content"
