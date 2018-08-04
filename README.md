@@ -1,7 +1,7 @@
 # SimpleLivePublisher.Lite
 ### 简介-Introduction
 
-Simple Live Publisher 是简洁的 Android 平台直播推流Lite SDK，H264 和 AAC的编码使用的是Android的mediacodec, 网络部分Java重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。
+Simple Live Publisher 是简洁的 Android 平台直播推流Lite SDK，H264 和 AAC的编码使用的是Android的mediacodec, 网络部分Java重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。延时在1-3秒左右。
 
 A simple live publisher for android, H264 and AAC encoder use android mediacodec. Publish media stream over RTMP protocol.  Using LibYUV for process yuv.
 
@@ -11,6 +11,14 @@ A simple live publisher for android, H264 and AAC encoder use android mediacodec
 * 支持RTMP协议推流 -Supporting publishing media over RTMP
 * 支持重力感应旋转画面-Supporting  dynamic rotation  image
 * 支持前后置摄像头动态切换，自动对焦-Supporting  front/back camera dynamic swithing and autofocus
+
+
+
+### Todo List
+
+- [ ] 帧率有时不太稳定
+
+
 
 ### 性能-Performance
 
