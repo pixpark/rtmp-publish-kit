@@ -116,7 +116,7 @@ public class SimpleLivePulisherEngine extends ISimpleLiveEngine.Stub {
 
 
         CameraConfigManager.getInstance()
-                .setDesiredPreviewSize(GetResolution(VIDEO_QUALITY.STANDARD))
+                .setDesiredPreviewSize(GetResolution(VIDEO_QUALITY.SUPER))
                 .setFlashMode(false)
                 .setFocusMode(true)
                 .setFpsRange(new int[]{20, 30})
