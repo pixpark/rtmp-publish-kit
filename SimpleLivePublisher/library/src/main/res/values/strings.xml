@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="camera_setting">Camera Configuration</string>
+
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+
+    <string name="preferences_orientation_title">No automatic rotation</string>
+
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+
+    <string name="preferences_invert_scan_title">Invert scan</string>
+
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+
+
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+</resources>

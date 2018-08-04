@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+
+version "1.0.8"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName version
+
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments "NDK_APPLICATION_MK:=../jni/Application.mk"
+                abiFilters "arm64-v8a", "armeabi-v7a", "armeabi"
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+
+            buildConfigField "boolean", "LOG_FLAG", "true"
+            buildConfigField "String", "TAG", "\"ECSparkLiveKit\""
+        }
+
+        release {
+            minifyEnabled false
+            debuggable false
+
+            buildConfigField "boolean", "LOG_FLAG", "false"
+            buildConfigField "String", "TAG", "\"ECSparkLiveKit\""
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/xml'] } }
+    externalNativeBuild {
+        ndkBuild {
+            path '../jni/Android.mk'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'junit:junit:4.12'
+}
+
+task clearJar(type: Delete) {
+    delete 'build/outputs/ECSparkLiveKit-' + version + '.jar'
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/')
+    include('classes.jar')
+    rename('classes.jar', 'ECSparkLiveKit-' + version + '.jar')
+}
+
+
+makeJar.dependsOn(clearJar, build)

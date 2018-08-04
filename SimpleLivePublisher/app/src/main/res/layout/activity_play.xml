@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".PreviewActivity"
+                android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/btn_stop"/>
+
+    <Button
+        android:id="@+id/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/stop"
+        android:text="Switch"/>
+
+    <TextView
+        android:id="@+id/txt_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btn_switch"
+        android:text="v0.0.1"
+        android:textAppearance = "?android:attr/textAppearanceSmall"/>
+    <TextView
+        android:id="@+id/status_indication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_switch"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

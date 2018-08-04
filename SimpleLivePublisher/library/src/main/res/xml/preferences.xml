@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/camera_setting">
+        <ListPreference
+            android:entries="@array/preferences_front_light_options"
+            android:entryValues="@array/preferences_front_light_values"
+            android:key="preferences_front_light_mode"
+            android:defaultValue="OFF"
+            android:title="@string/preferences_front_light_title"
+            android:summary="@string/preferences_front_light_summary"/>
+        <CheckBoxPreference
+            android:key="preferences_auto_focus"
+            android:defaultValue="true"
+            android:title="@string/preferences_auto_focus_title"/>
+        <CheckBoxPreference
+            android:key="preferences_invert_scan"
+            android:defaultValue="false"
+            android:title="@string/preferences_invert_scan_title"
+            android:summary="@string/preferences_invert_scan_summary"/>
+        <CheckBoxPreference
+            android:key="preferences_bulk_mode"
+            android:defaultValue="false"
+            android:title="@string/preferences_bulk_mode_title"
+            android:summary="@string/preferences_bulk_mode_summary"/>
+        <CheckBoxPreference
+            android:key="preferences_orientation"
+            android:defaultValue="true"
+            android:title="@string/preferences_orientation_title"/>
+    </PreferenceCategory>
+</PreferenceScreen>
