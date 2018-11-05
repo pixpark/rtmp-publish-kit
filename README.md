@@ -38,7 +38,10 @@ Simple Live Publisher Publish 720P video，in Meizu MX4(2014-32bit-mobile)，cpu
 
 
 
+### DEMO
+
+![rtmp_android_01](images/rtmp_android_01.jpg)
 
 
 
-
+![rtmp_demo_android_02](images/rtmp_demo_android_02.jpg)
