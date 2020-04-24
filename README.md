@@ -1,4 +1,4 @@
-# SimpleLivePublisher.Lite
+# Android SimpleLivePublisher
 ### Introduction
 
 Simple Live Publisher 是简洁的 Android 平台直播推流Lite SDK，H264 和 AAC的编码使用的是Android的mediacodec, 网络部分Java重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。延时在1-3秒左右。
