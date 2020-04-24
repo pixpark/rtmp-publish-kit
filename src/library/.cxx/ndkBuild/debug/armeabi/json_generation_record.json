@@ -1,0 +1,20 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi",
+    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "tag": "debug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/library/.cxx/ndkBuild/debug/armeabi/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "tag": "debug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "tag": "debug|armeabi"
+  }
+]

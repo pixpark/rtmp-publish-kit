@@ -1,4 +1,5 @@
 {
+  "ndkFolder": "/Users/gezhaoyou/Library/Android/sdk/ndk-bundle",
   "messages": [
     {
       "level": "INFO",
@@ -6,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is not set"
+      "message": "ndk.dir in local.properties is /Users/gezhaoyou/Library/Android/sdk/ndk-bundle"
     },
     {
       "level": "INFO",
@@ -18,7 +19,7 @@
     },
     {
       "level": "INFO",
-      "message": "Because no explicit NDK was requested, the default version \u002720.0.5594570\u0027 for this Android Gradle Plugin will be used"
+      "message": "Considering /Users/gezhaoyou/Library/Android/sdk/ndk-bundle by ndk.dir"
     },
     {
       "level": "INFO",
@@ -30,15 +31,7 @@
     },
     {
       "level": "INFO",
-      "message": "Rejected /Users/gezhaoyou/Library/Android/sdk/ndk/20.1.5948944 in SDK ndk folder because that NDK had version 20.1.5948944 which didn\u0027t match the requested version 20.0.5594570"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected /Users/gezhaoyou/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that NDK had version 16.1.4479499 which didn\u0027t match the requested version 20.0.5594570"
-    },
-    {
-      "level": "ERROR",
-      "message": "No version of NDK matched the requested version 20.0.5594570. Versions available locally: 16.1.4479499, 20.1.5948944"
+      "message": "Found requested ndk.dir (/Users/gezhaoyou/Library/Android/sdk/ndk-bundle) which has version 16.1.4479499"
     }
   ]
 }

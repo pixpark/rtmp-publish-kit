@@ -1,0 +1,2 @@
+/Users/gezhaoyou/Library/Android/sdk/ndk-bundle/build/core/setup-app.mk:81: Android NDK: Application targets deprecated ABI(s): armeabi    
+/Users/gezhaoyou/Library/Android/sdk/ndk-bundle/build/core/setup-app.mk:82: Android NDK: Support for these ABIs will be removed in a future NDK release.    
