@@ -20,7 +20,7 @@ A simple live publisher for android, H264 and AAC encoder use android mediacodec
 
 北京向阿里香港服务器推流效果：
 
-![rtmp_android_01](images/demo.jpg)
+<img src="images/demo.jpg" alt="rtmp_android_01" style="zoom:50%;" />
 
 ### Performance
 
@@ -30,13 +30,13 @@ Simple Live Publisher Publish 720P video，in Meizu MX4(2014-32bit-mobile)，cpu
 
 魅族-MX4(2014-12) Mobie CPU Usage：
 
-![cpu_usage](images/cpu_usage.png)
+<img src="images/cpu_usage.png" alt="	cpu_usage" style="zoom:50%;" />
 
 
 
 网络和内存-Network & Memory Usage:
 
-![Net & Mem](./images/mem_net_usage.png)
+<img src="./images/mem_net_usage.png" alt="Net &amp; Mem" style="zoom:50%;" />
 
 
 
