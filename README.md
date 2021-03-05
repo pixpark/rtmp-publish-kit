@@ -1,9 +1,9 @@
-## A Simple Rtmp Live Publisher for Android
+## Rtmp Live Publish Kit for Android
 ### Introduction
 
-Simple Live Publisher 是简洁的 Android 平台直播推流Lite SDK，H264 和 AAC的编码使用的是Android的mediacodec, 网络部分Java重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。延时在1-3秒左右。
+Rtmp Live Publish Kit 是简洁的 Android 平台直播推流SDK，使用 Mediacodec进行H264 和 AAC 编码, 网络部分 Java 重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。整体延时在1-3秒左右。
 
-A simple live publisher for android, H264 and AAC encoder use android mediacodec. Publish media stream over RTMP protocol.  Using LibYUV for process yuv.
+A simple rtmp live publisher for android, H264 and AAC encoder use android mediacodec. Publish media stream over RTMP protocol.  Using LibYUV for process yuv.
 
 ### Feature
 
@@ -14,8 +14,8 @@ A simple live publisher for android, H264 and AAC encoder use android mediacodec
 
 ### Todo List
 
-- [ ] 帧率有时不太稳定
-
+- [ ] 摄像头API 替换为 Camera2
+- [ ] 添加滤镜支持
 ### Demo
 
 北京向阿里香港服务器推流效果：
