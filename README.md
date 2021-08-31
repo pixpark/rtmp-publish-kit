@@ -1,4 +1,4 @@
-## Rtmp Live Publish Kit for Android
+## Rtmp Publish Kit for Android
 ### Introduction
 
 Rtmp Live Publish Kit 是简洁的 Android 平台直播推流SDK，使用 Mediacodec进行H264 和 AAC 编码, 网络部分 Java 重写了RTMP协议，方便阅读定位，YUV处理考虑性能采用了LibYUV。整体延时在1-3秒左右。
