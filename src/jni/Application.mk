@@ -1,5 +1,7 @@
-NDK_TOOLCHAIN_VERSION = 4.9
-APP_STL := gnustl_static
-APP_ABI := armeabi-v7a arm64-v8a x86
+APP_ABI :=  armeabi-v7a arm64-v8a
+APP_OPTIM        := release
+APP_CFLAGS       += -O3
+APP_STL := c++_static
+NDK_TOOLCHAIN_VERSION = clang
+APP_CPPFLAGS :=  -std=c++11 -fexceptions
 APP_PLATFORM := android-21
-APP_ALLOW_MISSING_DEPS=true

@@ -1,20 +1,68 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
-    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/library/.cxx/ndkBuild/debug/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
-    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "message": "rebuilding JSON /Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/.cxx/ndkBuild/debug/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems",
-    "file": "/Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Android.mk",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/gezhaoyou/repos/github/SimpleLivePublisherLite/src/jni/Application.mk",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/.cxx/ndkBuild/debug/arm64-v8a\u0027",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/.cxx/ndkBuild/debug/arm64-v8a\u0027",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /Users/admin/works/tools/ndk-r21e/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/lib\nNDK_APPLICATION_MK:\u003d../jni/Application.mk\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /Users/admin/works/tools/ndk-r21e/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/lib\nNDK_APPLICATION_MK:\u003d../jni/Application.mk\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /Users/admin/works/tools/ndk-r21e/ndk-build with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/library/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK:\u003d../jni/Application.mk APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\n\nfcntl(): Bad file descriptor\n/Users/admin/works/tools/ndk-r21e/build/core/add-application.mk:178: *** Android NDK: APP_STL gnustl_static is no longer supported. Please switch to either c++_static or c++_shared. See https://developer.android.com/ndk/guides/cpp-support.html for more information.    .  Stop.\n",
+    "file": "/Users/admin/works/repos/open-source/github/RtmpPublishKit/src/jni/Android.mk",
     "tag": "debug|arm64-v8a"
   }
 ]

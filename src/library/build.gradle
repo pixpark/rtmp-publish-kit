@@ -4,20 +4,18 @@ version "1.0.8"
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 23
-        versionCode 1
-        versionName version
-
-
+        ndkVersion '21.4.7075529'
         externalNativeBuild {
             ndkBuild {
-                arguments "NDK_APPLICATION_MK:=../jni/Application.mk"
-                abiFilters "arm64-v8a", "armeabi-v7a", "armeabi"
+                cppFlags ''
             }
+        }
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
     }
 
@@ -27,7 +25,6 @@ android {
 
     buildTypes {
         debug {
-            debuggable true
 
             buildConfigField "boolean", "LOG_FLAG", "true"
             buildConfigField "String", "TAG", "\"ECSparkLiveKit\""
@@ -35,7 +32,6 @@ android {
 
         release {
             minifyEnabled false
-            debuggable false
 
             buildConfigField "boolean", "LOG_FLAG", "false"
             buildConfigField "String", "TAG", "\"ECSparkLiveKit\""
@@ -48,16 +44,17 @@ android {
     sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/xml'] } }
     externalNativeBuild {
         ndkBuild {
-            path '../jni/Android.mk'
+            path file('../jni/Android.mk')
         }
     }
+
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.android.support:support-v4:23.4.0'
-    compile 'junit:junit:4.12'
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api 'com.android.support:appcompat-v7:23.4.0'
+    api 'com.android.support:support-v4:23.4.0'
+    api 'junit:junit:4.12'
 }
 
 task clearJar(type: Delete) {
