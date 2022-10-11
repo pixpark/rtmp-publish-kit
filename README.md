@@ -50,3 +50,13 @@ Simple Live Publisher Publish 720P video，in Meizu MX4(2014-32bit-mobile)，cpu
 
 
 
+### 附: 
+
+rtmp mindmap:  见 `xmind` 目录
+
+<img src="./images/rtmp-1.png" alt="Net &amp; Mem" style="zoom:50%;" />
+
+
+
+<img src="./images/rtmp-2.png" alt="Net &amp; Mem" style="zoom:50%;" />
+
